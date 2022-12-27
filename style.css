@@ -12,12 +12,17 @@ section[aria-label="navbar"] {
     margin-right: auto;
     height: 6.25rem;
 }
+.menu {
+    width: 25%;
+    min-width: 35rem;
+    margin: auto;
+}
 .navbar {
     display: flex;
     margin-top: 4rem;
 }
 .nav-logo {
-    margin-right: 25%;
+    position: absolute;
 }
 .list {
     display: flex;
@@ -54,7 +59,7 @@ section[aria-label="hero-front"] {
     width: 90%;
     margin: 5rem auto 0 auto;
     display: flex;
-    min-height: 55rem;
+    min-height: 52rem;
 }
 .hero-front {
     width: 51%;
@@ -83,7 +88,7 @@ span {
 .bg-img {
     width: 49%;
     background: no-repeat top url(./assets/Illustrations/Group\ 238502.svg);
-    background-size: 90% 80%;
+    background-size: 90% 85%;
 }
 section[aria-label="hero-logos"] {
     width: 100%;
@@ -237,10 +242,11 @@ section[aria-label="hero-features"] {
 }
 .features > span {
     position: relative;
-    top: 25%;
+    top: 30%;
     left: 15%;
     font-weight: 400;
     font-size: 1.5rem;
+    color: silver;
 }
 section[aria-label="hero-pricing"] {
     width: 100%;

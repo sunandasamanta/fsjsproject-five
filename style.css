@@ -6,28 +6,34 @@ body {
     color: #fff;
     font-family: 'Oxygen', sans-serif;
 }
+
 section[aria-label="navbar"] {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     height: 6.25rem;
 }
+
 .menu {
     width: 25%;
     min-width: 35rem;
     margin: auto;
 }
+
 .navbar {
     display: flex;
     margin-top: 4rem;
 }
+
 .nav-logo {
     position: absolute;
 }
+
 .list {
     display: flex;
     list-style: none;
 }
+
 .list-item {
     color: #fff;
     font-weight: 500;
@@ -35,11 +41,15 @@ section[aria-label="navbar"] {
     margin-left: 1.5rem;
     cursor: pointer;
 }
+
 .list-item:hover {
     font-size: 1.5rem;
     text-decoration: underline #1a73e8;
 }
-.btn, .btn2, .btn3 {
+
+.btn,
+.btn2,
+.btn3 {
     /* width: 10rem; */
     padding: 1.5rem 2rem 1.5rem 2rem;
     border: none;
@@ -50,46 +60,56 @@ section[aria-label="navbar"] {
     font-size: 1.25rem;
     margin-right: 1rem;
 }
+
 .btn {
     position: absolute;
     right: 2.5%;
     padding: 1rem 2rem 1rem 2rem;
 }
+
 section[aria-label="hero-front"] {
     width: 90%;
     margin: 5rem auto 0 auto;
     display: flex;
     min-height: 52rem;
 }
+
 .hero-front {
     width: 51%;
 }
+
 .hero-front-heading {
     font-weight: 700;
     font-size: 6rem;
     margin: 0 0 6rem 0;
 }
+
 span {
     color: #1a73e8;
 }
+
 .hero-front-description {
     font-weight: 400;
     font-size: 1.5rem;
     margin: 3rem 0 3rem 0;
 }
+
 .btn-group {
     padding-top: 2rem;
 }
+
 .btn3 {
     border: 1px solid #fff;
     background-color: #000;
     margin-left: 2rem;
 }
+
 .bg-img {
     width: 49%;
     background: no-repeat top url(./assets/Illustrations/Group\ 238502.svg);
     background-size: 90% 85%;
 }
+
 section[aria-label="hero-logos"] {
     width: 100%;
     background-color: rgb(20, 20, 20);
@@ -97,6 +117,7 @@ section[aria-label="hero-logos"] {
     min-height: 15rem;
     max-height: 25rem;
 }
+
 .hero-logos {
     width: 80%;
     height: 100%;
@@ -104,22 +125,26 @@ section[aria-label="hero-logos"] {
     margin-right: auto;
     display: flex;
 }
+
 .logo {
     background: no-repeat center url(./assets/Logo-light.svg);
     /* background-size: 10rem; */
     width: 25%;
     background-size: 50%;
 }
+
 section[aria-label="hero-features"] {
     width: 100%;
     min-height: 132rem;
     background-color: rgb(241, 231, 231);
     color: #000;
 }
+
 .hero-features {
     width: 80%;
     margin: 0 auto;
 }
+
 .hero-features-heading {
     font-weight: 700;
     font-size: 5rem;
@@ -127,6 +152,7 @@ section[aria-label="hero-features"] {
     margin: 0 auto 5rem auto;
     padding-top: 5rem;
 }
+
 .hero-features-description {
     width: 30%;
     margin: 3rem auto 3rem auto;
@@ -135,14 +161,17 @@ section[aria-label="hero-features"] {
     font-weight: 400;
     font-size: 1.5rem;
 }
+
 .service-container {
     width: 100%;
     height: auto;
-    display: flex; 
-    padding-top: 6.25rem;   
+    display: flex;
+    padding-top: 6.25rem;
 }
 
-.box1, .box2, .box3 {
+.box1,
+.box2,
+.box3 {
     min-height: 300px;
     min-width: 300px;
     border: 1px solid #a1a3a7;
@@ -152,6 +181,7 @@ section[aria-label="hero-features"] {
     font-weight: 400;
     font-size: 1.5rem;
 }
+
 .box2 {
     position: relative;
     top: -3.5rem;
@@ -159,30 +189,39 @@ section[aria-label="hero-features"] {
     color: #fff;
     box-shadow: 8px 16px 16px #a5a5ac;
 }
+
 .box3 {
     margin: 0;
 }
-.box1-img, .box2-img, .box3-img {
+
+.box1-img,
+.box2-img,
+.box3-img {
     height: 200px;
     width: 100%;
 }
+
 .box1-img {
     background: no-repeat center url(./assets/Icons/fast.svg);
     background-size: 25%;
 }
+
 .box2-img {
     background: no-repeat center url(./assets/Icons/signal.svg);
     background-size: 25%;
 }
+
 .box3-img {
     background: no-repeat center url(./assets/Icons/heart.svg);
     background-size: 25%;
 }
+
 .box-description {
     width: 80%;
     margin: 2rem auto;
     color: #696a6e;
 }
+
 .hero-support {
     font-weight: 600;
     font-size: 4rem;
@@ -191,14 +230,17 @@ section[aria-label="hero-features"] {
     margin: 0;
     text-align: left;
 }
+
 .features-container {
     display: flex;
     width: 100%;
 }
+
 .main-div {
     width: 50%;
     margin-right: 5rem;
 }
+
 .feature-box {
     height: 16%;
     margin: 2rem auto;
@@ -207,22 +249,26 @@ section[aria-label="hero-features"] {
     background: no-repeat right url(./assets/Icons/Group\ 238512.svg);
     background-position: right 7.5% center;
 }
-.feature-box > span {
+
+.feature-box>span {
     font-weight: 600;
     font-size: 2rem;
     color: #000;
     position: relative;
     top: 34%;
-    left: 7%;    
+    left: 7%;
 }
+
 .feature-box:nth-last-child(1) {
     margin: 0;
 }
+
 .subdiv {
     background-color: #000;
     width: 50%;
     border-radius: 4rem;
 }
+
 .features {
     background: no-repeat left center url(./assets/Icons/bullet.svg);
     background-size: 20% 20%;
@@ -234,13 +280,16 @@ section[aria-label="hero-features"] {
     border-radius: 5rem;
     text-align: left;
 }
+
 .features:nth-child(1) {
     margin-top: 2rem;
 }
+
 .features:nth-last-child(1) {
     margin-bottom: 2rem;
 }
-.features > span {
+
+.features>span {
     position: relative;
     top: 30%;
     left: 15%;
@@ -248,21 +297,25 @@ section[aria-label="hero-features"] {
     font-size: 1.5rem;
     color: silver;
 }
+
 section[aria-label="hero-pricing"] {
     width: 100%;
     min-height: 62.5rem;
 }
+
 .arrow-host {
     width: 80%;
     margin: 0 auto;
     background: no-repeat left url(./assets/Icons/arrow-left.svg), no-repeat right url(./assets/Icons/arrow-right.svg);
 }
-.arrow-host > div:nth-child(1) {
+
+.arrow-host>div:nth-child(1) {
     width: 75%;
     margin: 0 auto;
-    
+
 }
-.arrow-host > div > h1 {
+
+.arrow-host>div>h1 {
     font-weight: 600;
     font-size: 5rem;
     text-align: center;

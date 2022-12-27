@@ -259,6 +259,16 @@ section[aria-label="hero-features"] {
     left: 7%;
 }
 
+.main-features {
+    background: no-repeat right url(./assets/Icons/Group\ 238511.svg);
+    background-position: right 7.5% center;
+    background-color: #1a73e8;
+}
+
+.main-features > span {
+    color: #fff;
+}
+
 .feature-box:nth-last-child(1) {
     margin: 0;
 }

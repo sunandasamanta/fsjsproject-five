@@ -40,6 +40,7 @@ section[aria-label="navbar"] {
     font-size: 1.25rem;
     margin-left: 1.5rem;
     cursor: pointer;
+    list-style: none;
 }
 
 .list-item:hover {

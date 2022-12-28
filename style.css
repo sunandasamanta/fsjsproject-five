@@ -135,7 +135,7 @@ section[aria-label="hero-logos"] {
 
 section[aria-label="hero-features"] {
     width: 100%;
-    min-height: 132rem;
+    min-height: 140rem;
     background-color: rgb(241, 231, 231);
     color: #000;
 }
@@ -154,7 +154,7 @@ section[aria-label="hero-features"] {
 }
 
 .hero-features-description {
-    width: 30%;
+    width: 40%;
     margin: 3rem auto 3rem auto;
     text-align: center;
     color: #696a6e;
@@ -265,7 +265,7 @@ section[aria-label="hero-features"] {
     background-color: #1a73e8;
 }
 
-.main-features > span {
+.main-features>span {
     color: #fff;
 }
 
@@ -310,23 +310,127 @@ section[aria-label="hero-features"] {
 
 section[aria-label="hero-pricing"] {
     width: 100%;
-    min-height: 62.5rem;
+    min-height: 75rem;
 }
 
-.arrow-host {
+.pricing-text {
     width: 80%;
     margin: 0 auto;
     background: no-repeat left url(./assets/Icons/arrow-left.svg), no-repeat right url(./assets/Icons/arrow-right.svg);
 }
 
-.arrow-host>div:nth-child(1) {
-    width: 75%;
+.pricing-text>div:nth-child(1) {
+    width: 80%;
     margin: 0 auto;
 
 }
 
-.arrow-host>div>h1 {
+.pricing-text>div>h1 {
     font-weight: 600;
     font-size: 5rem;
     text-align: center;
 }
+
+.pricing-category {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.category {
+    margin-right: 2rem;
+    width: 33%;
+    min-height: 53rem;
+    border: 1px solid #696a6e;
+    border-radius: 3rem;
+    background-color: #fff;
+    color: #000;
+}
+
+.category:nth-child(2) {
+    background-color: #3e87e7;
+    color: #fff;
+}
+
+.category:nth-last-child(1) {
+    margin: 0;
+}
+
+.Regular,
+.Standard,
+.Premium {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.Regular>UL {
+    padding-top: 1.5rem;
+}
+
+ul {
+    padding-left: 2rem;
+
+}
+
+li {
+    list-style: url(./assets/Icons/blue-tick.svg);
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.Standard>ul>li {
+    list-style: url(./assets/Icons/white-tick.svg);
+    justify-content: left;
+    color: #fff;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 2rem 0;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 4.5rem;
+    margin: 1rem 0 1rem 0;
+}
+
+h3>span {
+    font-size: 2.5rem;
+    color: #696a6e;
+}
+
+.acccount-description {
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.Select-btn {
+    text-align: center;
+    width: 100%;
+    margin: 2rem 0;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.select-btn2 {
+    background-color: #fff;
+    color: #3e87e7;
+}
+
+section[aria-label="hero-reviews"] {
+    width: 100%;
+    min-height: 1000px;
+    background-color: #fff;
+}
+
+/* @media (min-width: 500px) and (max-width: 700px) and (orientation: portrait) {
+    body {
+        background-color: #fff;
+        color: #000;
+    }
+} */

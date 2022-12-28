@@ -31,7 +31,6 @@ section[aria-label="navbar"] {
 
 .list {
     display: flex;
-    list-style: none;
 }
 
 .list-item {
@@ -45,7 +44,7 @@ section[aria-label="navbar"] {
 
 .list-item:hover {
     font-size: 1.5rem;
-    text-decoration: underline #1a73e8;
+    color: #1a73e8;
 }
 
 .btn,
@@ -66,6 +65,10 @@ section[aria-label="navbar"] {
     position: absolute;
     right: 2.5%;
     padding: 1rem 2rem 1rem 2rem;
+}
+
+button {
+    cursor: pointer;
 }
 
 section[aria-label="hero-front"] {
@@ -374,7 +377,7 @@ ul {
 
 }
 
-li {
+.Regular > ul > li, .Standard > ul > li,  .Premium > ul > li {
     list-style: url(./assets/Icons/blue-tick.svg);
     text-align: left;
     font-weight: 400;
@@ -423,10 +426,190 @@ h3>span {
     color: #3e87e7;
 }
 
+.hr-bar {
+    height: 0.5rem;
+    background: linear-gradient(to right, #1a73e8 10%, #dadde1 10%);
+    border-radius: 2rem;
+    position: relative;
+    top: -3rem;
+    width: 90%;
+    margin-left: auto;
+}
+
 section[aria-label="hero-reviews"] {
     width: 100%;
+    height: auto;
     min-height: 1000px;
     background-color: #fff;
+}
+
+.hero-reviews {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+.hero-reviews-text {
+    display: flex;
+    color: black;
+}
+
+.hero-reviews-heading {
+    width: 47%;
+    text-align: left;
+    font-weight: 700;
+    font-size: 4rem;
+    margin-right: auto;
+}
+
+.hero-reviews-description {
+    width: 47%;
+    text-align: left;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-left: auto;
+    margin-top: 6rem;
+    color: #696a6e;
+}
+
+.review-container {
+    display: flex;
+}
+
+.review {
+    width: 90%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.feedback {
+    width: 49%;
+    min-height: 30rem;
+    border: 1px solid #696a6e;
+    border-radius: 4rem;
+}
+
+.rvw1 {
+    margin-right: 3rem;
+    background-color: #000;
+}
+
+.rvw2 {
+    color: #000;
+    position: relative;
+    top: 3rem;
+}
+
+
+
+.quotation {
+    height: 50px;
+
+}
+
+.username {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.username>span {
+    font-weight: 300;
+    color: inherit;
+}
+
+.user-review {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+section[aria-label="footer"] {
+    width: 100%;
+    background-color: #000;
+    height: 1100px;
+}
+
+.footer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 4.5rem;
+    width: 90%;
+    margin: 4rem auto;
+}
+
+.join-us {
+    background-color: rgb(20, 20, 20);
+    height: 10vh;
+    min-height: 12rem;
+    border-radius: 2.5rem;
+    width: 90%;
+    margin: 5rem auto;
+}
+
+.join-us>form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.credentials {
+    width: 25%;
+    margin: 2rem 0;
+}
+
+input {
+    border: none;
+    padding: 2rem;
+    background-color: rgb(48, 45, 45);
+    border-radius: 5rem;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: 70%;
+}
+
+input[placeholder="Name"] {
+    margin-left: 3rem;
+}
+
+.signup {
+    background-color: #1a73e8;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 0;
+    margin-left: 3rem;
+}
+
+.fbar {
+    display: flex;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.footer-list {
+    list-style: none;
+    width: 25%;
+}
+
+.list-head {
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 3rem auto;
+}
+
+.other {
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 1.5rem 0;
+}
+
+.f-logo {
+    margin-top: 2rem;
 }
 
 /* @media (min-width: 500px) and (max-width: 700px) and (orientation: portrait) {
